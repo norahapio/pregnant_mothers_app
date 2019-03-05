@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic2"
+    tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/edittext1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Sign in with"
+   android:gravity="center"
+    android:textSize="30sp"
+    android:textColor="@color/colorkijumi"
+    android:layout_marginTop="90dp"
+
+
+    />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:layout_below="@id/edittext1"
+        android:layout_marginTop="200dp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="20dp"`
+        />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_below="@id/btn1"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"/>
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn2"
+        android:text="Google"
+        android:background="@color/colorkijumi"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"/>
+
+
+
+
+
+
+</RelativeLayout>
